@@ -1,0 +1,7 @@
+build:
+  context: .
+deploy:
+  compose: docker-compose.yaml
+dev:
+  api:
+    command: bash
